@@ -1,0 +1,13 @@
+mylist =["aishita","suman","priya","sneha",62,60.52]
+print(mylist)
+print(type(mylist))
+print(mylist[0])
+print(mylist[1])        
+print(mylist[2])
+print(mylist[-1])   
+print(mylist[2:5]) 
+print(mylist[:5])
+print(mylist[1:]) 
+print(mylist[1:5:2])
+print(mylist[:]) 
+print(mylist[::-1]) 
