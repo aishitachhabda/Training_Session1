@@ -1,0 +1,13 @@
+fruit_list1 = ["apple", "berry", "cherry","papaya"]
+fruit_list2 = fruit_list1
+fruit_list3 = fruit_list1[ : ]
+fruit_list2[0] = "guava"
+fruit_list3[1] = "kiwi"
+
+sum = 0
+for ls in (fruit_list1, fruit_list2, fruit_list3):
+   if ls[0] == "guava":
+       sum += 1
+       if ls[1] == "kiwi":
+              sum += 20
+print(sum)
